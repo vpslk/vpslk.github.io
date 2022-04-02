@@ -31,7 +31,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br4.vpslk24hrs.xyz",
-      "CheckUser": "http://br4.vpslk24hrs.xyz:2095/checkUser",
+      "CheckUser": "https://br4.vpslk24hrs.xyz:2095/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -39,14 +39,14 @@
     },
     {
       "Name": "BRASIL | 02",
-      "TYPE": "free",
+      "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br4.vpslk24hrs.xyz",
-      "CheckUser": "http://br4.vpslk24hrs.xyz:8989/checkUser",
+      "CheckUser": "https://br4.vpslk24hrs.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "kirito",
-      "PASS": "1234"
+      "USER": "vpslk",
+      "PASS": "vpslk"
     }
   ],
   "Networks": [
