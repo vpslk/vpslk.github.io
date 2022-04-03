@@ -27,7 +27,7 @@
   ],
   "Servers": [
     {
-      "Name": "BRASIL | 01",
+      "Name": "BRASIL | Servidor 01",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br4.vpslk24hrs.xyz",
@@ -38,15 +38,15 @@
       "PASS": ""
     },
     {
-      "Name": "BRASIL | 02",
+      "Name": "BRASIL | Servidor 02",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br4.vpslk24hrs.xyz",
       "CheckUser": "https://br4.vpslk24hrs.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "vpslk",
-      "PASS": "vpslk"
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
