@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.11",
+  "Version": "1.0.12",
   "ReleaseNotes": "",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -71,7 +71,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY",
+      "Name": "TIM PROXY 01",
       "FLAG": "tim",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -81,30 +81,30 @@
       "Info": "Proxy"
     },
     {
-      "Name": "TIM TLS",
+      "Name": "TIM TLS 02",
       "FLAG": "tim",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-      "SNI": "[app_host]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 01",
+      "Name": "CLARO PROXY 01",
       "FLAG": "claro",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
       "Info": "Tlsws"
     },
     {
       "Name": "CLARO TLS 02",
       "FLAG": "claro",
       "Payload": "GET ssl://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-      "SNI": "[app_host]",
+      "SNI": "parceirosclaro.com.br",
       "TlsIP": "parceirosclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -123,8 +123,8 @@
     {
       "Name": "OI TLS 02",
       "FLAG": "oi",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-      "SNI": "[app_host]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
