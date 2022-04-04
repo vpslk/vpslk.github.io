@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.12",
-  "ReleaseNotes": "",
+  "Version": "1.0.13",
+  "ReleaseNotes": "Erros corrigidos.",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
   "EmailFeedback": "vpslk@gmail.com",
