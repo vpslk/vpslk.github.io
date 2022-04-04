@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.5",
   "ReleaseNotes": "",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -85,9 +85,9 @@
       "FLAG": "tim",
       "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
@@ -95,9 +95,9 @@
       "FLAG": "claro",
       "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
@@ -107,7 +107,7 @@
       "SNI": "parceirosclaro.com.br",
       "TlsIP": "parceirosclaro.com.br",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
@@ -125,9 +125,9 @@
       "FLAG": "oi",
       "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]
