@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -87,7 +87,7 @@
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.56.6",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
@@ -97,7 +97,7 @@
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.56.6",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
@@ -107,7 +107,7 @@
       "SNI": "parceirosclaro.com.br",
       "TlsIP": "parceirosclaro.com.br",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
@@ -127,7 +127,7 @@
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.56.6",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     }
   ]
