@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.19",
+  "Version": "1.0.20",
   "ReleaseNotes": "Servidor para JOGOS foi adicionado!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -41,7 +41,7 @@
       "Name": "Servidor para JOGOS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "azure.vpslk24hrs.xyz",
+      "ServerIP": "br4.vpslk24hrs.xyz",
       "CheckUser": "http://br.vpslk24hrsbr.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
