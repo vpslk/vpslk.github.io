@@ -1,9 +1,9 @@
 {
-  "Version": "1.0.16",
+  "Version": "1.0.17",
   "ReleaseNotes": "Atualização de payload!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
-  "EmailFeedback": "vpslk@gmail.com",
+  "EmailFeedback": "vpslk2@gmail.com",
   "UrlContato": "https://t.me/LUKEVPS",
   "UrlTermos": "https://vpslk.github.io/termos.html",
   "CheckUser": "true",
@@ -38,10 +38,10 @@
       "PASS": ""
     },
     {
-      "Name": "BRASIL | 02",
+      "Name": "Servidor para JOGOS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br4.vpslk24hrs.xyz",
+      "ServerIP": "azure.vpslk24hrs.xyz",
       "CheckUser": "http://br.vpslk24hrs.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
