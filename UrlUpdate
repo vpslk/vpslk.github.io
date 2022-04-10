@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.17",
-  "ReleaseNotes": "Atualização de payload!",
+  "Version": "1.0.18",
+  "ReleaseNotes": "Servidor para JOGOS foi adicionado!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
   "EmailFeedback": "vpslk2@gmail.com",
