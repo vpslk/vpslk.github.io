@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.21",
+  "Version": "1.0.22",
   "ReleaseNotes": "Servidor para JOGOS foi adicionado! Fix bugs.",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -42,11 +42,11 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "azure.vpslk24hrs.xyz",
-      "CheckUser": "http://20.226.37.131.xyz:5454/checkUser",
+      "CheckUser": "http://20.226.53.32.xyz:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
+      "USER": "GAMES",
+      "PASS": "GAMES"
     }
   ],
   "Networks": [
