@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.22",
-  "ReleaseNotes": "Servidor para JOGOS foi adicionado! Fix bugs.",
+  "Version": "1.0.23",
+  "ReleaseNotes": "Atualização de payloads e servidores.",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
   "EmailFeedback": "vpslk2@gmail.com",
@@ -45,8 +45,8 @@
       "CheckUser": "http://20.226.53.32.xyz:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "GAMES",
-      "PASS": "GAMES"
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
