@@ -42,7 +42,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "azure.vpslk24hrs.xyz",
-      "CheckUser": "http://20.226.53.32.xyz:5454/checkUser",
+      "CheckUser": "http://20.226.8.22:5353/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
