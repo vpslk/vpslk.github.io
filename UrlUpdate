@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.23",
-  "ReleaseNotes": "Atualização de payloads e servidores.",
+  "Version": "1.0.24",
+  "ReleaseNotes": "Atualização da Operadora CLARO!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
   "EmailFeedback": "vpslk2@gmail.com",
@@ -93,9 +93,9 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "fozrioclaro.com.br",
+      "TlsIP": "fozrioclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
