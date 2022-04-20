@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.24",
+  "Version": "1.0.25",
   "ReleaseNotes": "Atualização da Operadora CLARO!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -93,9 +93,9 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "fozrioclaro.com.br",
-      "TlsIP": "fozrioclaro.com.br",
+      "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
