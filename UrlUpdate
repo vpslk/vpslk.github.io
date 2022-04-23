@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.27",
+  "Version": "1.0.28",
   "ReleaseNotes": "Atualização da Operadora TIM!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -87,7 +87,7 @@
       "SNI": "azure.vpslk24hrs.xyz",
       "TlsIP": "azure.vpslk24hrs.xyz",
       "ProxyIP": "104.16.18.94",
-      "ProxyPort": "443",
+      "ProxyPort": "80",
       "Info": "Tlsws"
     },
     {
