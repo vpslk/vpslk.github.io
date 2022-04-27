@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.30",
-  "ReleaseNotes": "Atualização da Operadora TIM!",
+  "Version": "1.0.31",
+  "ReleaseNotes": "Atualização: CLARO e TIM. (teste)",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
   "EmailFeedback": "vpslk2@gmail.com",
@@ -73,7 +73,7 @@
     {
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
-      "Payload": "GET wss://azure.vpslk24hrs.xyz [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
@@ -93,9 +93,9 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
