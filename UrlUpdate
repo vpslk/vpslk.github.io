@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.32",
+  "Version": "1.0.33",
   "ReleaseNotes": "Atualização: CLARO e TIM. (teste)",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -13,16 +13,16 @@
       "Porta": "7300"
     },
     {
-      "Porta": "7400"
+      "Porta": "7300"
     },
     {
-      "Porta": "7500"
+      "Porta": "7300"
     },
     {
-      "Porta": "7600"
+      "Porta": "7300"
     },
     {
-      "Porta": "7700"
+      "Porta": "7300"
     }
   ],
   "Servers": [
@@ -30,8 +30,8 @@
       "Name": "BRASIL | 01",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br4.vpslk24hrs.xyz",
-      "CheckUser": "http://br.vpslk24hrsbr.xyz:8989/checkUser",
+      "ServerIP": "azu.vpslk24hrs.xyz",
+      "CheckUser": "http://seu.dominio:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
