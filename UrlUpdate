@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.31",
+  "Version": "1.0.32",
   "ReleaseNotes": "Atualização: CLARO e TIM. (teste)",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -73,11 +73,11 @@
     {
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
+      "ProxyPort": "443",
       "Info": "Proxy"
     },
     {
