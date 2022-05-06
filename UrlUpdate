@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.34",
+  "Version": "1.0.35",
   "ReleaseNotes": "Atualização: CLARO e TIM. (teste)!",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -41,7 +41,7 @@
       "Name": "Servidor para JOGOS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "azure.vpslk24hrs.xyz",
+      "ServerIP": "azu.vpslk24hrs.xyz",
       "CheckUser": "http://20.226.8.22:5353/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
