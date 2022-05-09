@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.35",
-  "ReleaseNotes": "Atualização: CLARO e TIM. (teste)!",
+  "Version": "1.0.36",
+  "ReleaseNotes": "Atualização: Todas as Operadoeas",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
   "EmailFeedback": "vpslk2@gmail.com",
@@ -53,10 +53,10 @@
     {
       "Name": "VIVO PROXY 01",
       "FLAG": "vivo",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://vivo.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "ProxyIP": "vivo.apolo.tk",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -73,19 +73,19 @@
     {
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://tim.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.18.94",
+      "ProxyIP": "tim.apolo.tk",
       "ProxyPort": "443",
       "Info": "Proxy"
     },
     {
       "Name": "TIM TLS 02",
       "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET wss://tim.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "tim.apolo.tk",
+      "TlsIP": "tim.apolo.tk",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -93,9 +93,9 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET wss://claro.apolo.tk HTTP/1.1[crlf]Host: br4.vpslk24hrs.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "claro.apolo.tk",
+      "TlsIP": "claro.apolo.tk",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -123,9 +123,9 @@
     {
       "Name": "OI TLS 02",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET wss://oi.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "oi.apolo.tk",
+      "TlsIP": "oi.apolo.tk",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
