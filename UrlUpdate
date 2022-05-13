@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.40",
+  "Version": "1.0.41",
   "ReleaseNotes": "Atualização: Todas as Operadoeas",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -61,13 +61,23 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO TLS 02 [off]",
+      "Name": "VIVO TLS 02 [on]",
       "FLAG": "vivo",
       "Payload": "GET ssl://joguejunto.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "joguejunto.vivo.com.br",
       "TlsIP": "joguejunto.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO TLS 03 [teste]",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: azu.vpslk24hrs.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "joguejunto.vivo.com.br",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
