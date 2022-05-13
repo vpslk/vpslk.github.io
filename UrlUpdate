@@ -1,0 +1,134 @@
+{
+  "Version": "1.1.03",
+  "ReleaseNotes": "Atualização: Todas as Operadoeas",
+  "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
+  "Sms": "https://vpslk.github.io/UrlSms",
+  "EmailFeedback": "vpslk2@gmail.com",
+  "UrlContato": "https://t.me/LUKEVPS",
+  "UrlTermos": "https://vpslk.github.io/termos.html",
+  "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "BRASIL | 01",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "azu.vpslk24hrs.xyz",
+      "CheckUser": "http://seu.dominio:8989/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "Servidor para JOGOS",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "azu.vpslk24hrs.xyz",
+      "CheckUser": "http://20.226.8.22:5353/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO PROXY 01 [on]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://celular.vivo.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "celular.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TLS 02 [on]",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://celular.vivo.com.br HTTP/1.1[crlf]Host: azu.vpslk24hrs.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PROXY 01 [teste]",
+      "FLAG": "tim",
+      "Payload": "GET wss://cutim.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "cutim.com.br",
+      "ProxyPort": "443",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM TLS 02 [teste],
+      "FLAG": "tim",
+      "Payload": "GET wss://cutim.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cutim.com.br",
+      "TlsIP": "cutim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO TLS 01 [on]",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: azu.vpslk24hrs.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "atendimento.descomplica.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO TLS 02 [off]",
+      "FLAG": "claro",
+      "Payload": "GET ssl://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "parceirosclaro.com.br",
+      "TlsIP": "parceirosclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI PROXY 01 [teste]",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "OI TLS 02 [on]",
+      "FLAG": "oi",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
