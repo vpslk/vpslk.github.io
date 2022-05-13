@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.42",
+  "Version": "1.0.43",
   "ReleaseNotes": "Atualização: Todas as Operadoeas",
   "UrlUpdate": "https://vpslk.github.io/UrlUpdate",
   "Sms": "https://vpslk.github.io/UrlSms",
@@ -68,16 +68,6 @@
       "TlsIP": "joguejunto.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO TLS 03 [teste]",
-      "FLAG": "vivo",
-      "Payload": "GET ssl://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: azu.vpslk24hrs.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
-      "ProxyIP": "joguejunto.vivo.com.br",
-      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
